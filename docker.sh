@@ -29,3 +29,10 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin d
 #6. Verify Docker installation
 sudo docker version
 
+#Add your user to the docker group
+sudo groupadd docker
+#Add your user to the Docker group:
+sudo usermod -aG docker $USER
+newgrp docker
+
+
