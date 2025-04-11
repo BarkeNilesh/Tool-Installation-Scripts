@@ -36,3 +36,8 @@ docker run --name artifactory -d \
   -v /jfrog/artifactory:/var/opt/jfrog/artifactory \
   docker.bintray.io/jfrog/artifactory-oss:latest
 
+
+#http://<EC2IP_OR_DOMAIN>:8081/artifactory
+#Login ID – admin
+#Login password - password
+
