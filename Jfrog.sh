@@ -7,8 +7,8 @@
 # You need to log out and log back in/run "newgrp docker" command for the group change to take effect.
 
 
-sudo usermod -aG docker $USER
-newgrp docker
+#sudo usermod -aG docker $USER
+#newgrp docker
 
 
 # 2. Pull the Artifactory Docker image
